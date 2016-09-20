@@ -2,6 +2,9 @@ public class Calculator {
     public void run() {
 
         Numbers numbers = new Numbers();
+        Menu menu = new Menu();
+        menu.displayHelloMessage();
+        menu.displayMenu();
 
         System.out.println("Podaj pierwsza liczbe");
         numbers.firstNumber = numbers.setNumber();
