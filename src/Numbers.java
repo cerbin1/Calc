@@ -5,6 +5,7 @@ public class Numbers {
     public int secondNumber;
     public int choice;
 
+
     Scanner getInt = new Scanner(System.in);
 
     public int setNumber() {
